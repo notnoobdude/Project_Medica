@@ -13,13 +13,13 @@ npm install -g hexo-cli
 git clone https://github.com/notnoobdude/Project_Medica.git
 cd Project_Medica
 pip3 install -r requirements.txt
-npm install hexo-renderer-pug --save
 ```
 
 ### To run:
 There are two separate runs that should happen here on the command line.
 First:
 ```sh
+npm install hexo-renderer-pug --save
 hexo clean
 hexo server
 ```
