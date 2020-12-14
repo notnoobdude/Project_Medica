@@ -19,12 +19,14 @@ pip3 install -r requirements.txt
 There are two separate runs that should happen here on the command line.
 First:
 ```sh
+cd Project_Medica
 npm install hexo-renderer-pug --save
 hexo clean
 hexo server
 ```
 Second:
 ```sh
+cd Project_Medica
 python3 train.py
 python3 run.py
 ```
